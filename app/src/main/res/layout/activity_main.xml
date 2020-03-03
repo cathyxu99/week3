@@ -17,7 +17,7 @@
         android:layout_marginRight="151dp"
         android:layout_marginBottom="348dp"
         android:onClick="sendMessage"
-        android:text="Click Here"
+        android:text="Launch Detail Activity"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
