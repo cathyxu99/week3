@@ -13,8 +13,9 @@ import android.widget.TextView;
 import static android.provider.AlarmClock.EXTRA_MESSAGE;
 
 public class MainActivity extends AppCompatActivity {
-    public static final String EXTRA_MESSAGE = "lol";
+    public static final String EXTRA_MESSAGE = "testtest";
     private static final String TAG ="MainActivity";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,9 +26,10 @@ public class MainActivity extends AppCompatActivity {
     public void sendMessage(View view){
         Intent intent = new Intent(this, detailActivity.class);
         TextView textView = findViewById(R.id.textView);
-        String message = textView.getText().toString();
+        String message = "BTC";
         intent.putExtra(EXTRA_MESSAGE, message);
         startActivity(intent);
     }
+
 
 }
